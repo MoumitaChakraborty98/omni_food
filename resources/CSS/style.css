@@ -111,6 +111,37 @@ h2::after {
   color: #e67e22;
   margin-bottom: 10px;
 }
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: #e67e22;
+  font-size: 90%;
+  margin-right: 10px;
+
+  /* secrets to align text and icons */
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+/* ----------------------------------------- */
+/* -----LINKS----- */
+/* ----------------------------------------- */
+
+a:link,
+a:visited {
+  color: #e67e22;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #e67e22;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
 
 /* ----------------------------------------- */
 /* -----BUTTONS----- */
@@ -160,6 +191,7 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
+  background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -242,9 +274,12 @@ header {
 }
 
 /* ----------------------------------------- */
-/* -----MEALS----- */
+/* -----HOW IT WORKS----- */
 /* ----------------------------------------- */
 
+.section-steps {
+  background-color: #f4f4f4;
+}
 .steps-box:first-child {
   text-align: right;
   padding-right: 3%;
@@ -276,9 +311,119 @@ header {
   font-size: 150%;
   margin-right: 25px;
 }
+.btn-app:link,
+.btn-app:visited {
+  border: none;
+}
 .btn-app img {
   height: 50px;
   width: auto;
   margin-left: 50px;
   margin-right: 10px;
 }
+
+/* ----------------------------------------- */
+/* -----CITIES----- */
+/* ----------------------------------------- */
+
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.city-feature {
+  margin-bottom: 5px;
+}
+
+/* ----------------------------------------- */
+/* -----TESTIMONILS----- */
+/* ----------------------------------------- */
+
+.section-testimonials{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+blockquote{
+  padding: 2%;
+  font-style: italic;
+  line-height: 145%;
+  position: relative;
+  margin-top: 40px;
+}
+blockquote:before{
+  content: "\201C";
+  font-size: 500%;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -3px;
+
+}
+cite{
+  font-size: 90%;
+  margin-top: 25px;
+  display: block;
+}
+cite img{
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* ----------------------------------------- */
+/* -----SIGN UP----- */
+/* ----------------------------------------- */
+
+.section-plans{
+  background-color: #f4f4f4;
+}
+.plan-box{
+  background-color: #fff;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 0 2px 2px #efefef;
+}
+.plan-box div{
+  padding: 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.plan-box div:first-child{
+  background-color: #fcfcfc;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.plan-box div:last-child{
+  text-align: center;
+  border: 0;
+}
+.plan-price{
+  font-size: 300%;
+  margin-bottom: 10px;
+  font-weight: 200;
+  color: #e67e22;
+}
+.plan-price span{
+  font-size: 30%;
+  font-weight:400;
+}
+.plan-price-meal{
+  font-size: 80%;
+}
+.plan-box ul{
+  list-style: none;
+}
+.plan-box ul li{
+  padding: 5px 0;
+}
+
+
+
+
+
+
+
+
