@@ -451,5 +451,78 @@ input[type=checkbox]{
   outline: none;
 }
 
+/* ----------------------------------------- */
+/* -----FOOTER----- */
+/* ----------------------------------------- */
+
+footer{
+  background-color: #333;
+  padding: 30px;
+  font-size: 80%;
+}
+.footer-nav{
+  list-style: none;
+  float: left;
+}
+.social-links{
+  list-style: none;
+  float: right;
+}
+.footer-nav li,
+.social-links li{
+  display: inline-block;
+  margin: 20px;
+  font-size: 90%;
+}
+.footer-nav li:last-child,
+.social-links li:last-child{
+margin-right: 0;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+text-decoration: none;
+border: 0;
+color: #888;
+transition: color 0.2s;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active{
+  color: #ddd;
+}
+.social-links li a:link,
+.social-links li a:visited{
+  font-size: 150%;
+}
+.fa-facebook-f,
+.fa-twitter,
+.fa-google-plus-g,
+.fa-instagram{
+  transition: color 0.2s;
+}
+
+.fa-facebook-f:hover{
+  color: #3b5998;
+}
+.fa-twitter:hover{
+  color: #55acee;
+}
+.fa-google-plus-g:hover{
+  color: #dd4b39;
+}
+.fa-instagram:hover{
+  color: #ff6600;
+}
+
+footer p{
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
 
 
