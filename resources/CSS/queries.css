@@ -70,6 +70,10 @@
     }
     .steps-box:first-child {text-align: center;}
     .App-screen { width: 40%;}
+    footer{
+        padding: 20px 30px 30px 20px ;
+    }
+
 }
 /* small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
